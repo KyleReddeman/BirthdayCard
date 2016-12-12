@@ -1,0 +1,8 @@
+.banner {
+    background-color: lightblue;
+    text-align: center;
+}
+
+body, .banner h1 {
+    margin: 0px;
+}
