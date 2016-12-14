@@ -6,3 +6,34 @@
 body, .banner h1 {
     margin: 0px;
 }
+
+.listItem img {
+    width: 100px;
+}
+
+.listItem, .listItem img {
+    height: 100px;
+}
+.listItem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lightblue;
+}
+
+#years {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+}
+
+.banner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer p {
+    margin: 0px;
+}

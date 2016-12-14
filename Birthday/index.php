@@ -1,6 +1,5 @@
 <?php
-    $years = scandir("years");
-    var_dump($years);
+    $years = glob("years/*");
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,6 +11,17 @@
     <body>
         <div id="header" class="banner">
             <h1>Happy Birthday</h1>
+        </div>
+        <div id="years">
+            <?php
+                foreach($years as $year) {
+                    ?>
+                    <div class="listItem">
+                        <img src="<?= $year ?>/icon.jpg" alt="icon picture" />
+                    </div>
+                    <?php
+                }
+            ?>
         </div>
         <div id="footer" class="banner">
             <p>
