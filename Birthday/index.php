@@ -6,6 +6,7 @@
     <head>
         <title>Birthday Card</title>
         <link href="index.css" rel="stylesheet" type="text/css" />
+        <script src="main.js" type="text/javascript"></script>
     </head>
 
     <body>
@@ -16,7 +17,7 @@
             <?php
                 foreach($years as $year) {
                     ?>
-                    <div class="listItem">
+                    <div class="listItem" value="<?= $year ?>">
                         <img src="<?= $year ?>/icon.jpg" alt="icon picture" />
                     </div>
                     <?php

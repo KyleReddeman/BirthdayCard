@@ -1,0 +1,67 @@
+body {
+    background-image: url("../../pictures/2015_2016/leaves.jpg");
+}
+
+#body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);;
+    //opacity: .5;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 65pt;
+    margin-top: 4px;
+    margin-bottom: 0px;
+
+}
+
+h1, #pics img {
+    border: 5px solid rgb(230, 93, 0);
+}
+p, h1 {
+    font-family: Georgia;
+    color: white;
+
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#note {
+    background-color: rgba(230, 93, 0, .5);
+    margin-top: 60px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18pt;
+}
+
+#pics .wide img {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+#pics .tall img {
+    height: 400px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.left {
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.right {
+    float: right;
+    margin-right: 5%;
+    margin-left: auto;
+}
