@@ -1,6 +1,12 @@
 .banner {
-    background-color: lightblue;
+    background-color: rgb(0, 46, 93);
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    color: white;
 }
 
 body, .banner h1 {
@@ -9,6 +15,8 @@ body, .banner h1 {
 
 .listItem img {
     width: 100px;
+    /*border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;*/
 }
 
 .listItem, .listItem img {
@@ -21,17 +29,26 @@ body, .banner h1 {
     margin-right: auto;
     margin-left: auto;
     background-color: lightblue;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 #years {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: blue;
+    background-color: #006CD8;
 }
 
-.banner {
-    padding-top: 10px;
-    padding-bottom: 10px;
+#footer {
+    width: 100%;
+    bottom: 0px;
+    box-shadow:0px -5px 5px #888888;
+}
+
+#header {
+    width: 100%;
+    /*position: absolute;*/
+    box-shadow:0px 5px 5px #888888;
 }
 
 #footer p {
